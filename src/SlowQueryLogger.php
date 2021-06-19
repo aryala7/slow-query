@@ -1,6 +1,6 @@
 <?php
 
-namespace Aryala\Slowquery;
+namespace Aryala\SlowQuery;
 
 use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
