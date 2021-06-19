@@ -1,0 +1,25 @@
+{
+    "name": "aryala/slow-query",
+    "description": "find slow queries",
+    "type": "metapackage",
+    "authors": [
+        {
+            "name": "aryala77",
+            "email": "arya.lavasani@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "aryala\\slowquery\\": "src/"
+        }
+    },
+    "extra": {
+		"laravel": {
+			"providers": [
+				"Ayala\\SlowQuery\\SlowQueryLogger"
+			]
+		}
+	},
+    "minimum-stability": "dev",
+    "require": {}
+}
