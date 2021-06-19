@@ -7,14 +7,14 @@ namespace Composer\Autoload;
 class ComposerStaticInit87e89fea33608ed19ba09f356a48298c
 {
     public static $prefixLengthsPsr4 = array (
-        'a' => 
+        'A' => 
         array (
-            'aryala\\slowquery\\' => 17,
+            'Aryala\\SlowQuery\\' => 17,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'aryala\\slowquery\\' => 
+        'Aryala\\SlowQuery\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),

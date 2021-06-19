@@ -6,5 +6,5 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'aryala\\slowquery\\' => array($baseDir . '/src'),
+    'Aryala\\SlowQuery\\' => array($baseDir . '/src'),
 );
