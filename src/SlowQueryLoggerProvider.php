@@ -6,7 +6,7 @@ use Illuminate\Support\Facades\DB;
 use Illuminate\Support\Facades\File;
 use Illuminate\Support\ServiceProvider;
 
-class SlowQueryLogger extends ServiceProvider
+class SlowQueryLoggerProvider extends ServiceProvider
 {
 	/**
 	 * Bootstrap the application services.

@@ -16,7 +16,7 @@
     "extra": {
 		"laravel": {
 			"providers": [
-				"Aryala\\SlowQuery\\SlowQueryLogger"
+				"Aryala\\SlowQuery\\SlowQueryLoggerProvider"
 			]
 		}
 	},
